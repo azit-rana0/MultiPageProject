@@ -1,0 +1,110 @@
+:root {
+    --color-primary: #22BC7E;
+    --color-bg: #F0F4F5;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 50px 180px;
+}
+
+nav img{
+    width: 170px;
+}
+
+li{
+    list-style: none;
+}
+
+.ContactUs{
+    background: var(--color-primary);
+    color: var(--color-bg);
+}
+
+ul li a:hover{
+    color: #00000065;
+    border: none;
+    background-color: #0000000f;
+  
+}
+
+ul li a{
+    text-decoration: none;
+    font-weight: 800;
+    font-size: 18px;
+    color: #000000;
+    border-radius: 50px;
+    padding: 5px 15px;
+}
+
+ul{
+    width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main{
+    width: 350px;
+    box-shadow: 0 0 10px black;
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.main h1{
+    text-align: center;
+}
+
+.main div{
+    display: flex;
+    flex-direction: column;
+}
+.main div label{
+    font-size: 18px;
+    font-weight: 800;
+}
+
+.main div input{
+    border: transparent;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    padding: 5px 10px;
+}
+
+.main div textarea{
+    resize: none;
+    height: 100px;
+    border: transparent;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    padding: 5px 10px;
+}
+
+button{
+    border: transparent;
+    border-radius: 10px;
+    background-color: #20bc7e;
+    color: white;
+    font-size: 18px;
+    font-weight: 800;
+    padding: 10px;
+    cursor: pointer;
+}

@@ -1,0 +1,143 @@
+:root {
+    --color-primary: #22BC7E;
+    --color-bg: #F0F4F5;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    width: 98vw;
+    height: 93vh;
+}
+
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 50px 180px;
+}
+
+nav img{
+    width: 170px;
+}
+
+li{
+    list-style: none;
+}
+
+.home{
+    background: var(--color-primary);
+    color: var(--color-bg);
+}
+
+
+ul li a{
+    text-decoration: none;
+    font-weight: 800;
+    font-size: 18px;
+    color: #000000;
+    border-radius: 50px;
+    padding: 5px 15px;
+}
+
+ul li a:hover{
+    color: #00000065;
+    border: none;
+    background-color: #0000000f;
+    
+}
+
+ul{
+    width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+button{
+    cursor: pointer;
+    background-color: var(--color-primary);
+    font-size: 20px;
+    color: #ffffff;
+    border: none;
+    font-weight: 700;
+    border-radius: 100px;
+    padding: 10px 20px;
+}
+
+main{
+    display: flex;
+    align-items: center;
+}
+
+.left-section{
+    background-image: url(./image/stethoscope.png);
+    background-size: 370px;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    width: 60%;
+    margin-top: 100px;
+    margin-left: 180px;
+}
+.left-section img{
+    width: 20px;
+    margin-left: -10px;
+}
+
+.left-section h1{
+    width: 445px;
+    line-height: 65px;
+    font-size: 50px;
+    font-weight: 900;
+}
+
+.left-section p{
+    font-size: 16px;
+    font-weight: 400;
+    width: 700px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.left-section div{
+    display: flex;
+    align-items: center;
+}
+
+.bottomAngle{
+    position: relative;
+    top: -16px;
+    left: 410px;
+}
+
+.mouse{
+    position: relative;
+    top: 16px;
+    left: 435px;
+}
+
+.right-section img {
+    position: absolute;
+    right: 0;
+}
+.right-section img:nth-child(1) {
+    width: 434px;
+    top: 288px;
+}
+
+.right-section img:nth-child(2) {
+    width: 370px;
+    top: 345px;
+}
+
+.right-section img:nth-child(3) {
+    width: 470px;
+    top: 100px;
+}
